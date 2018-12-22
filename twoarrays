@@ -1,0 +1,24 @@
+let paintColor = ["red", "blue", "green", "grey"];
+var room = ["bedroom", "bathroom", "hallway", "livingroom"];
+
+
+var combos = paintColor.length * room.length;
+
+console.log("The number of possible paint and room combinations are", combos + ".");
+
+var array1 = [1,3,13,55];
+var array2 = [1,5,21,89];
+var array3 = [2,8,34,144];
+var i;
+
+for (i=0; i <array1.length; i++){
+     var result = array1[i] * array2[i] + array3[i];
+     console.log(result)}
+     
+var arr1 = [2,4,6,8,10];
+var arr2 = [1,3,5,7,9];
+
+
+for (i=0; i < arr1.length; i++){
+     var sum = arr1[i] * arr2[i];
+     console.log(sum)}
